@@ -136,3 +136,55 @@ nav li a {
   font-size: 40px;
   margin-bottom: 30px;
 }
+footer {
+  margin-top: 110px;
+  padding: 100px 0px;
+  color: #fff;
+  background-color: #151414;
+}
+.foot {
+  display: flex;
+  justify-content: space-between;
+}
+.foot-details {
+  flex-basis: 40%;
+  margin-right: 50px;
+}
+.foot-pera {
+  font-size: 16px;
+  line-height: 26px; /* 162.5% */
+}
+.contact {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+.contact a {
+  color: #fff;
+  text-decoration: none;
+}
+.foot-social {
+  padding-top: 15px;
+}
+.foot-social img {
+  margin-right: 14px;
+  width: 44px;
+}
+.foot-subscribe {
+  flex-basis: 30%;
+  padding-top: 10px;
+}
+.foot-subscribe h4 {
+  font-size: 25px;
+  font-weight: 600;
+}
+.form input {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  color: #fff;
+  margin: 40px 0px 20px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  background-color: transparent;
+}
